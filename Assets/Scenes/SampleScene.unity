@@ -7299,10 +7299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1830177434}
-  sensitivity: {x: 100, y: 100}
+  sensitivity: {x: 1000, y: 1000}
   scrollSpeed: 5
   minZoom: 0
-  maxZoom: 5
+  maxZoom: 8
 --- !u!1 &899243288
 GameObject:
   m_ObjectHideFlags: 0
@@ -15623,7 +15623,7 @@ GameObject:
   - component: {fileID: 1830177432}
   - component: {fileID: 1830177431}
   - component: {fileID: 1830177430}
-  - component: {fileID: 1830177429}
+  - component: {fileID: 1830177435}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -15631,20 +15631,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1830177429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830177428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dff0c63e81078664eb1bd88e86cde41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  cameraTransform: {fileID: 862977250}
 --- !u!54 &1830177430
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15761,6 +15747,20 @@ Transform:
   - {fileID: 862977250}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1830177435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830177428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff0c63e81078664eb1bd88e86cde41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  cameraTransform: {fileID: 862977250}
 --- !u!1 &1830409409
 GameObject:
   m_ObjectHideFlags: 0
