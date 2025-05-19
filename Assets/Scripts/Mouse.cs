@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RobloxCameraController : MonoBehaviour
+public class Mouse : MonoBehaviour
 {
     public Transform player; // Player target to follow
     public Vector2 sensitivity = new Vector2(10000f, 10000f);
